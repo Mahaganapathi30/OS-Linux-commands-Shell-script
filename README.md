@@ -455,16 +455,27 @@ tar -tvf backup.tar
 ## OUTPUT
 
 
+<img width="688" height="603" alt="image" src="https://github.com/user-attachments/assets/93c3816a-e8e6-40ed-bfdb-c9955c050819" />
+
+
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="415" height="578" alt="image" src="https://github.com/user-attachments/assets/1bd53eb3-f722-4567-86c3-eedb0d3c429a" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+<img width="534" height="130" alt="image" src="https://github.com/user-attachments/assets/134bc0ca-1f3a-432d-a613-5a3f351563fe" />
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+<img width="428" height="52" alt="image" src="https://github.com/user-attachments/assets/b145fc90-4222-417b-9ac1-1a65e804ec0a" />
 
  
 # Shell Script
