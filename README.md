@@ -43,30 +43,28 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-<img width="608" height="154" alt="image" src="https://github.com/user-attachments/assets/cb8f24d8-2d23-4423-8abf-8ae0dc97008e" />
+<img width="640" height="155" alt="Screenshot 2026-07-28 190159" src="https://github.com/user-attachments/assets/6e828414-5354-4e7b-b729-e138e15e4ebc" />
 
 cat < file2
 ## OUTPUT
 
-<img width="613" height="174" alt="image" src="https://github.com/user-attachments/assets/13172b28-3e7d-48eb-904f-74690bbda670" />
+<img width="638" height="177" alt="image" src="https://github.com/user-attachments/assets/fe68eef8-e9a1-4f04-b0bb-0aaf01c827bc" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
 
-<img width="609" height="79" alt="image" src="https://github.com/user-attachments/assets/b11f2294-9229-4f31-af07-50be910f2546" />
+<img width="636" height="75" alt="image" src="https://github.com/user-attachments/assets/e8350c7a-9cc1-4f6d-a201-cc413f7b939c" />
 
 comm file1 file2
  ## OUTPUT
 
-<img width="610" height="301" alt="image" src="https://github.com/user-attachments/assets/5df98394-1019-4f05-851e-776e8c181174" />
-
+<img width="638" height="227" alt="image" src="https://github.com/user-attachments/assets/bd457ff2-0cf3-4e9c-b590-d2838a2ef5d3" />
  
 diff file1 file2
 ## OUTPUT
 
-<img width="604" height="325" alt="image" src="https://github.com/user-attachments/assets/fb5ff261-2c76-4410-a7b2-bc4aa9c4e37f" />
-
+<img width="638" height="276" alt="image" src="https://github.com/user-attachments/assets/a992577e-5ae4-4195-ae12-0fc44f058cc2" />
 
 #Filters
 
