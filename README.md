@@ -165,6 +165,9 @@ Linux is best in this World
 ^d
 ```
 
+<img width="686" height="174" alt="image" src="https://github.com/user-attachments/assets/ad945320-8193-4c55-a485-069cdcc8fe6c" />
+
+
 cat > newfile
 ```
 Hello world
@@ -174,6 +177,9 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
+<img width="688" height="176" alt="Screenshot 2026-07-28 195541" src="https://github.com/user-attachments/assets/e65fceed-dc95-488f-9c8e-09a8647b4abd" />
+
 
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
