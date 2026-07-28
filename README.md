@@ -84,20 +84,23 @@ cat > file22
 ^d
 ```
 
+<img width="637" height="229" alt="image" src="https://github.com/user-attachments/assets/e49e8bee-27ad-450a-a8a2-a30a2fb6ae1c" />
 
 cut -c1-3 file11
 ## OUTPUT
 
-
-
+<img width="637" height="103" alt="image" src="https://github.com/user-attachments/assets/13e57ca0-457d-4451-be1f-8011db1299cc" />
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="638" height="127" alt="image" src="https://github.com/user-attachments/assets/78bf8f93-6ab8-4683-a617-b7d6f82c8b9e" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+<img width="641" height="126" alt="image" src="https://github.com/user-attachments/assets/f8504d31-9336-4227-ad69-9b033ffdecef" />
 
 
 cat < newfile 
@@ -109,42 +112,47 @@ hello world
 cat > newfile 
 Hello world
 hello world
- 
+
+<img width="644" height="200" alt="image" src="https://github.com/user-attachments/assets/76d7fab4-5f9e-4c8a-b9c9-d91beb7864f5" />
+
 grep Hello newfile 
 ## OUTPUT
 
-
+<img width="638" height="76" alt="image" src="https://github.com/user-attachments/assets/57d4102d-912d-427d-8959-f6888c814cdc" />
 
 grep hello newfile 
 ## OUTPUT
 
-
-
+<img width="637" height="73" alt="image" src="https://github.com/user-attachments/assets/01a3322d-b093-40c5-bf79-777abc13d38e" />
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="634" height="72" alt="image" src="https://github.com/user-attachments/assets/ffd27121-71f0-42f3-a271-45f3b8c90b61" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+<img width="638" height="102" alt="image" src="https://github.com/user-attachments/assets/42d0f10f-bf98-4e33-900a-27c17cae435d" />
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+<img width="639" height="78" alt="image" src="https://github.com/user-attachments/assets/c2193b33-12cf-4d6d-b3ed-2781b9616445" />
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="685" height="576" alt="image" src="https://github.com/user-attachments/assets/8577256c-27e5-480b-b263-fd5cbc79dd7b" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
+
+<img width="683" height="100" alt="image" src="https://github.com/user-attachments/assets/b6900d0e-6b1d-4142-8162-2edcdac989b1" />
 
 
 cat < newfile 
@@ -166,6 +174,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
