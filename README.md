@@ -39,8 +39,6 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
-## OUTPUT:
-
 ### Display the content of the files
 cat < file1
 ## OUTPUT
