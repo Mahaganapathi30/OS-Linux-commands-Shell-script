@@ -184,58 +184,72 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+<img width="686" height="99" alt="image" src="https://github.com/user-attachments/assets/af71b41f-e236-4709-bc11-892dd48f3612" />
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="684" height="103" alt="image" src="https://github.com/user-attachments/assets/4b876346-19a3-45e0-a422-80fcba5a3495" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="685" height="98" alt="image" src="https://github.com/user-attachments/assets/273302e3-e5d7-423b-a7da-1d0179c136c0" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="686" height="73" alt="image" src="https://github.com/user-attachments/assets/3cec118e-8e3a-41ea-b0ea-ca4f3ee13f4d" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+<img width="687" height="100" alt="image" src="https://github.com/user-attachments/assets/cf6ca3ca-9183-4ecd-995b-931d4ce49bb5" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+<img width="677" height="77" alt="image" src="https://github.com/user-attachments/assets/de38c371-0304-4f0e-a73d-fd092cbb24cb" />
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="692" height="123" alt="image" src="https://github.com/user-attachments/assets/c9c2d94d-0077-4609-9d4d-dab2d8e15444" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="683" height="73" alt="image" src="https://github.com/user-attachments/assets/699cbc30-e5c2-4112-9079-ca45158619bc" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+<img width="687" height="74" alt="image" src="https://github.com/user-attachments/assets/9bb0d795-6cd1-46bf-b77d-0b95b17b4eef" />
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
+<img width="682" height="75" alt="image" src="https://github.com/user-attachments/assets/b7bc684b-9e0c-45e4-a94c-dd85c4fba37d" />
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="603" height="96" alt="image" src="https://github.com/user-attachments/assets/c5b48abf-0c79-4243-a0ed-69c1a7a1f4b6" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+<img width="661" height="125" alt="image" src="https://github.com/user-attachments/assets/09ec28b7-097a-4bfc-a31e-6e245f9388b3" />
 
 
 cat > file23
