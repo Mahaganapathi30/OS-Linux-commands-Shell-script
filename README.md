@@ -486,7 +486,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT:
+## OUTPUT:
 <img width="394" height="428" alt="image" src="https://github.com/user-attachments/assets/e188ea28-cdff-478c-b271-390bd3b80d3b" />
 
 chmod 755 strcomp.sh
