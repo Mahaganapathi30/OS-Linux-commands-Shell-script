@@ -592,12 +592,14 @@ fi
 ```
 ##OUTPUT
 
+<img width="394" height="428" alt="image" src="https://github.com/user-attachments/assets/e188ea28-cdff-478c-b271-390bd3b80d3b" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="320" height="126" alt="image" src="https://github.com/user-attachments/assets/6832d0b0-df5d-4160-9554-d22d4bbb54a3" />
 
 
 # check file ownership
