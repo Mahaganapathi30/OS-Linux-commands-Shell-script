@@ -486,8 +486,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="466" height="229" alt="image" src="https://github.com/user-attachments/assets/7ca7b67e-83d7-485e-b372-c6cf455e9f5c" />
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -498,6 +498,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="356" height="273" alt="image" src="https://github.com/user-attachments/assets/da4c77ef-2b7a-4632-84bc-0ff66d9ed166" />
 
 
 cat < scriptest.sh 
@@ -536,24 +537,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="424" height="423" alt="image" src="https://github.com/user-attachments/assets/3e7ba61c-37ab-46d5-b268-9cf95ee4104b" />
 
- 
 ls file1
 ## OUTPUT
+<img width="294" height="77" alt="image" src="https://github.com/user-attachments/assets/c9ddd6d6-7137-4cc9-9d35-5ddd47e3c92e" />
 
 echo $?
 ## OUTPUT 
+<img width="303" height="85" alt="image" src="https://github.com/user-attachments/assets/aec44173-9a9d-4d32-847a-3822ff09b1ce" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+<img width="349" height="79" alt="image" src="https://github.com/user-attachments/assets/8e9345fb-c1be-4bb3-b025-c9e8f7c31e4f" />
+
  
 abcd
- 
 echo $?
  ## OUTPUT
 
+<img width="298" height="154" alt="image" src="https://github.com/user-attachments/assets/0e99aa23-4464-4beb-a01d-e1ecb6cc1119" />
 
  
 # mis-using string comparisons
@@ -619,6 +625,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="590" height="81" alt="image" src="https://github.com/user-attachments/assets/28913780-e241-4fd5-89ba-c552758eb3f6" />
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -665,8 +673,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
-
+<img width="650" height="208" alt="image" src="https://github.com/user-attachments/assets/992494a0-9983-4b6b-8d9c-8d4b72d3d6f6" />
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -709,6 +716,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="368" height="151" alt="image" src="https://github.com/user-attachments/assets/d5f9e5a8-2726-4d64-b7c0-404a63458197" />
 
 # check if a file
 cat > ifnested.sh 
@@ -758,6 +766,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="558" height="175" alt="image" src="https://github.com/user-attachments/assets/f3c11ba7-8a01-43e2-ac98-f215fab36380" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
