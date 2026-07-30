@@ -1083,9 +1083,9 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+
  
  cat argshift1.sh
 ```bash
@@ -1101,9 +1101,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+ <img width="310" height="178" alt="image" src="https://github.com/user-attachments/assets/4f1464f0-cad5-4ec4-8993-4c3f57587fcb" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1114,9 +1116,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+ <img width="311" height="401" alt="image" src="https://github.com/user-attachments/assets/8428487d-fa80-4d57-81b9-10147630ef2d" />
  
 cat > nc.awk
 ```bash
@@ -1147,7 +1150,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="328" height="295" alt="image" src="https://github.com/user-attachments/assets/04f8a15f-8c72-470f-b30a-211c7cb3b994" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1174,6 +1178,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="308" height="133" alt="image" src="https://github.com/user-attachments/assets/ad60969e-5534-4d59-9bfd-8f2c5f88a0ad" />
 
 
 # RESULT:
