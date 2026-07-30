@@ -781,12 +781,11 @@ else
 echo "Sorry, you are not allowed here"
 fi
 ```
-
 $ chmod 755 elifcheck.sh
- 
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="417" height="178" alt="image" src="https://github.com/user-attachments/assets/319bbe57-05ed-4e7a-b06f-1f84380b2c01" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -802,6 +801,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="436" height="131" alt="image" src="https://github.com/user-attachments/assets/617f165e-bb8c-442e-98ab-9d6f35d6c5dd" />
 
 # using the case command
 cat >casecheck.sh 
@@ -913,6 +913,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="352" height="205" alt="image" src="https://github.com/user-attachments/assets/524c8d93-1951-4dbb-962f-fb7386059856" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -935,6 +937,7 @@ Khammam
 
 ## OUTPUT
 
+<img width="323" height="234" alt="image" src="https://github.com/user-attachments/assets/d071ec6a-c014-48be-86dc-9368bf8f0f85" />
 
 cat forctype.sh 
 ```bash
@@ -948,6 +951,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="287" height="175" alt="image" src="https://github.com/user-attachments/assets/14c012cb-ad37-499f-996b-120bfa8900b6" />
 
 cat forctype1.sh 
 ```bash
@@ -961,6 +965,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="288" height="180" alt="image" src="https://github.com/user-attachments/assets/4049159d-da7d-4d7c-a22b-bf83ccd42394" />
 
 cat fornested1.sh 
 ```bash
@@ -979,6 +984,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="348" height="400" alt="image" src="https://github.com/user-attachments/assets/e62044ab-d610-48c9-a084-dceb4a21e50c" />
 
  
 cat forbreak.sh 
@@ -1014,14 +1020,12 @@ fi
 echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
-```
-
- 
-$ chmod 755 forcontinue.sh
- 
+``` 
+$ chmod 755 forcontinue.sh 
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="324" height="178" alt="image" src="https://github.com/user-attachments/assets/4e043536-4b1a-479f-b972-0e8194f067a5" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1035,6 +1039,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="350" height="111" alt="image" src="https://github.com/user-attachments/assets/2118909f-2471-4986-a458-24254e993613" />
 
 
  cat exread1.sh
@@ -1045,14 +1050,12 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
- 
+$ ./exread1.sh  
 cat funcex.sh
+## OUTPUT
+<img width="344" height="109" alt="image" src="https://github.com/user-attachments/assets/8e30a2c6-3b2f-4b69-95fd-ad8ea5758a58" />
+
+
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -1067,11 +1070,11 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
  ./funcex.sh 
-
+  ./funcex.sh 1 2
+## OUTPUT
  
- ./funcex.sh 1 2
+<img width="299" height="73" alt="image" src="https://github.com/user-attachments/assets/e00ce0ed-7211-4786-b94c-7b14d787f388" />
 
  
 cat argshift.sh
@@ -1086,7 +1089,8 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
 
- 
+ <img width="336" height="178" alt="image" src="https://github.com/user-attachments/assets/28282a2a-e6fe-4d90-9db2-86353d360425" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
